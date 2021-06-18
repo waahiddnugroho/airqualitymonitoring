@@ -1,0 +1,15 @@
+{
+	"airquality": [{
+		"temperature": "29",
+		"humidity": "59",
+		"air_quality": "89"
+	}, {
+		"temperature": "29",
+		"humidity": "60",
+		"air_quality": "92"
+	}, {
+		"temperature": "29",
+		"humidity": "61",
+		"air_quality": "90"
+	}]
+}

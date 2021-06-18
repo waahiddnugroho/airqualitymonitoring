@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <%- include('../partials/head'); %>
+</head>
+<body class="container main-layout">
+
+<header>
+    <%- include('../partials/header'); %>
+</header>
+
+<main>
+    
+    <div class="jumbotron">
+
+        <div class="row">
+            <div class="col-sm-4">
+               <div class="card" style="height: 250px;">
+                  <div class="card-body" style="background-color:#87CEFA;">
+                     <center>
+                        <h2 class="card-title" style="color: #FFFFFF;">Temperature (<sup>o</sup>C)</sup></h2>
+                           <div style="color: #000; font-size: 100px;">27</div>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card" style="height: 250px;">
+                  <div class="card-body" style="background-color:#87CEFA;">
+                     <center>
+                        <h2 class="card-title" style="color: #FFFFFF;">Humidity (%)</h2>
+                        <div style="color: #000; font-size: 100px;" >59</div>
+                     </center>
+                  </div>
+               </div>
+            </div>
+            <div class="col-sm-4">
+               <div class="card" style="height: 250px;">
+                  <div class="card-body" style="background-color:#87CEFA;">
+                     <center>
+                        <h2 class="card-title" style="color: #FFFFFF;">Window</h2>
+                        <div style="color: #000; font-size: 100px;" >Open</div>
+                     </center>
+                  </div>
+               </div>
+            </div>
+         </div>
+        
+
+         <div class="chart_box ">
+            <figure><img src="images/chart.png" alt="#" /></figure>
+         </div>
+
+
+    </div>
+
+
+</main>
+
+<footer>
+    <%- include('../partials/footer'); %>
+</footer>
+ 
+    
+    <script src="js/jquery.js"></script>
+
+    <script src="js/bootstrap.min.js"></script>
+
+    <script src="javascript/highcharts.js"></script>
+   <script src="javascript/exporting.js"></script>
+   <script src="javascript/export-data.js"></script>
+   <script src="javascript/accessibility.js"></script>
+
+
+</body>
+</html>
